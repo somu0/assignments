@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+     <p>
+      <label for="">Salutation <br>
+      <select name="salutation" id="">
+        <option value="">--None--</option>
+        <option value="">Mr.</option>
+        <option value="">Ms.</option>
+        <option value="">Mrs.</option>
+        <option value="">Dr.</option>
+        <option value="">Prof.</option>
+      </select></label>
+     </p>
+      <label>firstName <input type="text"></label><br>
+     </p>
+     <p>
+      <label for="">LastName <input type="text"></label>
+     </p>
+     <p>
+      Gender:
+      <label for=""><input type="radio" name="gender" value="male">Male</label>
+      <label for=""><input type="radio" name="gender" value="female">Female</label>
+     </p>
+     <p>
+      <label for="">Email <input type="text"></label>
+      <label for="">Date Of Birth <input type="date" name="" id=""></label>
+     </p>
+     <p>
+      <label for="">Address:
+        <br>
+        <textarea name="address" id="" cols="30" rows="10"></textarea>
+      </label>
+     </p>
+     <p>
+      <button type="submit">Submit</button>
+     </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
