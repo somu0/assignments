@@ -1,0 +1,21 @@
+html {
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+}
+body {
+  margin: 0 var(--metric-box-spacing);
+}
+p {
+  max-inline-size: initial;
+  margin-block-start: var(--metric-box-spacing);
+}
+article {
+  margin: auto;
+  max-inline-size: 66ch;
+  line-height: 1.65;
+}
+blockquote {
+  margin:  var(--metric-box-spacing) auto;
+  padding:  var(--metric-box-spacing);
+  max-inline-size: 45ch;
+  line-height: 2;
+}
