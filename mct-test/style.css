@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(54, 19, 87);
+}
+
+
+img{
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+.main{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: rgba(128, 128, 128, 0.766);
+}
